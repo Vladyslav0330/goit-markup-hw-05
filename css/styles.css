@@ -125,7 +125,6 @@ body {
   border-radius: 2px;
 }
 
-
 .header-list {
   display: flex;
   align-items: center;
@@ -155,13 +154,15 @@ body {
   color: var(--text-color);
 }
 
-.header-mail {
+.header-mail,
+.header-tel,
+.header-icon {
   transition: color 250ms linear, fill 250ms linear;
 }
 
-.header-tel {
+/* .header-tel {
   transition: color 250ms linear, fill 250ms linear;
-}
+} */
 
 .header-mail:hover,
 .header-mail:focus {
